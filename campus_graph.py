@@ -14,7 +14,6 @@ class CampusGraph:
             node = self.nodes[node_name]
             return node
         except KeyError:
-            print("YOOO", node_name)
             return "Node not present in graph"
     
     def add_edge(self, source, destination, weight=1):
